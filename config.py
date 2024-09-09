@@ -12,29 +12,29 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Moonshining6")
-BOT_USERNAME = getenv("BOT_USERNAME", "KittyxMusic_bot")
-BOT_NAME = getenv("BOT_NAME", "𝐊íԵԵყ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "KittyxAssistant")
-EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "teralover7")
+BOT_USERNAME = getenv("BOT_USERNAME", "AUTISTIC_MUSIC_BOT")
+BOT_NAME = getenv("BOT_NAME", "⎯̽×꯭ 𝐏꯭𝛿ʏ꯭֟፝𝜍⃪꯭ʜ꯭𝜎꯭꯭ ×꯭⎯̽ ♪")
+ASSUSERNAME = getenv("ASSUSERNAME", "@Bchcha07")
+EVALOP = list(map(int, getenv("EVALOP", "").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID",-1002134214481))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
-OWNER_ID = int(getenv("OWNER_ID", 7006715434))
+OWNER_ID = int(getenv("OWNER_ID", 6169529415))
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/CHALCOGEN645/ANNIE")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/PROFESSOR777X/ANNIE")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Kittyxupdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+fPsCUlG964E5MzY1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FZ4EZONE4EVER")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+HzGQKfT01p4yYTE1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
